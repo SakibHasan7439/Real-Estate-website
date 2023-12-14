@@ -112,6 +112,17 @@
         width: 40%;
     }
 
+    @media screen and (max-width: 540px) {
+        .perfect-fit-width {
+            width: 100%;
+            text-align: center;
+        }
+
+        .perfect-fit {
+            padding-right: 0;
+        }
+    }
+
     .text-header {
         font-size: 24px;
         font-weight: bold;
@@ -146,6 +157,13 @@
         position: relative;
     }
 
+    @media screen and (max-width: 540px) {
+        .image-size {
+            width: 100%;
+            padding-left: 0;
+        }
+    }
+
 
     .image-width {
         width: 100%;
@@ -153,6 +171,12 @@
 
     .single-image {
         margin-right: 200px;
+    }
+
+    @media screen and (max-width: 540px) {
+        .single-image {
+            margin-right: 0;
+        }
     }
 
     .image-container {
@@ -198,6 +222,19 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: #ffffff;
         padding-right: 30px;
+    }
+
+    @media screen and (max-width: 540px) {
+        .subscript-text {
+            width: 100%;
+            float: none;
+            padding-right: 0px;
+            padding-bottom: 30px;
+        }
+
+        .Subscription-area {
+            padding-right: 0;
+        }
     }
 
     .pricing-btn {
@@ -250,10 +287,18 @@
     .benefit-align {
         float: left;
         padding: 0 5px;
+        width: 250px;
+    }
+
+    @media screen and (max-width: 540px) {
+        .benefit-align {
+            width: 100%;
+            padding-bottom: 30px;
+        }
     }
 
     .benefit-area {
-        width: 240px;
+        width: 100%;
         height: auto;
         padding: 16px;
         text-align: center;
@@ -306,12 +351,33 @@
         color: #ffffff;
     }
 
+    .btn-float {
+        float: left;
+    }
+
     .margin-left {
         margin-left: 35%;
     }
 
+
     .btns-bottom-space {
         padding-bottom: 50px;
+    }
+
+    
+    @media screen and (max-width: 540px) {
+        .btn-float {
+            float: none;
+        }
+
+        .margin-left {
+            margin-left: 0;
+            padding-bottom: 30px;
+        }
+
+        .btns-bottom-space {
+            text-align: center;
+        }
     }
 
     .second-container {
@@ -327,6 +393,22 @@
         text-align: center;
     }
 
+    .see-detail-float {
+        float: left;
+        padding-right: 13%;
+    }
+
+    @media screen and (max-width: 540px) {
+        .details-padding {
+            padding: 10px;
+        }
+
+        .see-detail-float {
+            float: none;
+            padding-right: 0;
+        }
+    }
+
     .detail-heading {
         font-size: 30px;
         color: #333333;
@@ -338,6 +420,12 @@
         margin-right: 40px;
     }
 
+    @media screen and (max-width: 280px) {
+        .design-image {
+            margin-right: 31px;
+        }
+    }
+
     .border {
         border-right: 2px solid #0a72bc;
     }
@@ -345,6 +433,13 @@
     .blue-texts {
         padding-top: 10px;
         padding-left: 40px;
+    }
+
+    @media screen and (max-width: 280px) {
+        .blue-texts {
+            padding-left: 5px;
+            font-size: 15px;
+        }
     }
 
     .padding-bottom {
