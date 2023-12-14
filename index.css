@@ -35,6 +35,10 @@
         width: 108px;
     }
 
+    .nav-align {
+        float: right;
+    }
+
     .logo-width {
         width: 100%;
     }
@@ -56,6 +60,31 @@
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
+    @media screen and (max-width: 540px){
+        .nav-align {
+            float: none;
+        }
+
+        .li-align {
+            display: block;
+            padding-bottom: 20px;
+        }
+
+        .logo-text {
+            padding-bottom: 38px;
+        }
+    }
+
+    @media screen and (max-width: 360px) {
+        .logo-text {
+            font-size: 17px;
+        }
+
+        .logo {
+            width: 105px;
+        }
+    }
+
     .solution-a {
         text-decoration: underline;
         color: #439fe0;
@@ -72,6 +101,12 @@
 
     .ul-padding {
         padding-top: 35px;
+    }
+
+    @media screen and (max-width: 540px) {
+        .ul-padding {
+            text-align: center;
+        }
     }
 
     .hero-text {
@@ -287,7 +322,7 @@
     .benefit-align {
         float: left;
         padding: 0 5px;
-        width: 250px;
+        width: 25%;
     }
 
     @media screen and (max-width: 540px) {
@@ -306,6 +341,11 @@
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
+    @media screen and (width: 820px) {
+        .benefit-area {
+            height: 315px;
+        }
+    }
     .icon-size {
         width: 80px;
         padding-bottom: 10px;
@@ -424,6 +464,14 @@
         .design-image {
             margin-right: 31px;
         }
+
+        .logo-text {
+            font-size: 13px;
+        }
+
+        .logo {
+            width: 100px;
+        }
     }
 
     .border {
@@ -489,6 +537,32 @@
         width: 200px;
         padding-left: 80px;
     }
+        
+    @media screen and (max-width: 540px) {
+        .solution-part {
+            padding-left: 0;
+        }
+
+        .footer {
+            font-size: 19px;
+        }
+
+        .footer-heading {
+            font-size: 27px;
+        }
+
+        .service-part {
+            padding-left: 0;
+        }
+
+        .other {
+            padding-left: 0;
+        }
+
+        .about {
+            padding-left: 0;
+        }
+    }
 
     .footer-link {
         color: #898b8c;
@@ -541,4 +615,50 @@
 
     .ul-margin {
         margin: 0;
+    }
+
+    .term-align {
+        float: left;
+    }
+
+    .social-icon-align {
+        float: right;
+    }
+
+    @media screen and (max-width: 540px) {
+        .term-align {
+            float: none;
+        }
+
+        .footer-other-text {
+            text-align: center;
+
+        }
+
+        .footer-icon {
+            width: 35px;
+        }
+
+    }
+
+    @media screen and (max-width: 400px) {
+        .ul-margin {
+            padding-right: 66px;
+            padding-top: 20px;
+        }
+    }
+
+    @media screen and (min-width: 400px) and (max-width: 540px) {
+        .ul-margin {
+            padding-right: 105px;
+            padding-top: 20px;
+        }
+    }
+
+    @media screen and (max-width: 280px) {
+        .ul-margin {
+            padding-right: 25px;
+            padding-top: 20px;
+            padding-left: 17px;
+        }
     }
